@@ -2,4 +2,4 @@
 --main Main
 --neko run.n
 
---cmd haxelib run haxe-patcher
+#--cmd haxelib run haxe-patcher
