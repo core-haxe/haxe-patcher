@@ -16,7 +16,7 @@ private enum StringBufExpansionMethod {
 }
 
 // alot here is testing / exploration
-class StringBuf {
+@:coreApi class StringBuf {
     private var buffer:Uint8Array;
     private var offset:Int = 0;
     private var backingBuffer:Buffer;
@@ -30,9 +30,11 @@ class StringBuf {
         offset = 0;
     }
 
+    /*
     public function reset() {
         offset = 0;
     }
+    */    
 
 	public var length(get, never):Int;
 	inline function get_length():Int {
